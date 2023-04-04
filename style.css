@@ -1,0 +1,160 @@
+/* fixed background photo */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/posterbackground.png');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center center;
+  background-color: black;
+}
+/* top of poster text */
+.toptext1 {
+    display: flex;
+    word-spacing: 5px;
+    letter-spacing: 9.5px;
+    font-size: 13px;
+    text-align: center;
+    justify-content:center;
+    color:#7ca1cf;
+}
+/* text above the ET */
+.aboveEt{
+    display: flex;
+    position: fixed;
+    top: 365px;
+    left: 47%;
+    color:#d8d6d6;
+    font-size:8.5px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    justify-content:center;
+}
+/* you guessed it, text below et lol */
+.belowEt{
+    position: fixed;
+    top: 500px;
+    left: 45%;
+    color:#7ca1cf;
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+    justify-content:center;
+}
+/* small text hovering above the earth */
+.aboveearth{
+    position: fixed;
+    top: 605px;
+    left: 45%;
+    color:#8daece;
+    font-size:8.5px;
+    font-weight:bold;
+    text-align: center;
+    justify-content:center;
+    line-height: 0.4;
+    letter-spacing: 1px;
+}
+/* all the writer and creator information on bottom of the poster */
+.footertext{
+    position: fixed;
+    top: 760px;
+    left: 44.8%;
+    color:#204669;
+    font-size:8.5px;
+    letter-spacing: 0.7px;
+    font-weight:bold;
+    text-align: center;
+    justify-content:center;
+    line-height: 0.1;
+}
+/* png dolby logo */
+.dolby{
+    position: fixed;
+    top: 885px;
+    left: 48.3%;
+    
+}
+/* png pg logo. wanted it a different color but makes it impossible to see so will have to do */
+.pg{
+    position: fixed;
+    top: 903px;
+    left: 49.2%;
+    
+}
+/* teeny tiny text on bottom left like poster */
+.bottomlefttext{
+    position: fixed;
+    font-size: 4px;
+    letter-spacing: 0.2px;
+    font-weight:bold;
+    color: #204669;
+    top: 910px;
+    left: 34.5%;
+}
+/* teeny tiny text on bottom left like poster */
+.bottomrighttext{
+    position: fixed;
+    font-size: 4px;
+    letter-spacing: 0.2px;
+    font-weight:bold;
+    color: #204669;
+    top: 910px;
+    left: 61.5%;
+}
+/*------------------reivews 1-4 on outside of poster -------------*/
+.review1{
+    position: fixed;
+    left: 12%;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    font-weight:bold;
+    color: #ffffff;
+    text-align:center;
+    justify-content: center;
+    background-color:rgb(0, 0, 0);
+}
+.review2{
+    position: fixed;
+    left: 70.5%;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    font-weight:bold;
+    color: #ffffff;
+    text-align:center;
+    justify-content: center;
+    background-color:rgb(0, 0, 0);
+}
+.review3{
+    position: fixed;
+    left: 10%;
+    top: 65%;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    font-weight:bold;
+    color: #ffffff;
+    text-align:center;
+    justify-content: center;
+    background-color:rgb(0, 0, 0);
+}
+.review4{
+    position: fixed;
+    left: 70%;
+    top: 65%;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    font-weight:bold;
+    color: #ffffff;
+    text-align:center;
+    justify-content: center;
+    background-color:rgb(0, 0, 0);
+}
+
+
+/*stars under reviews*/
+.star i{
+	color: gold;
+	font-size: 10px;
+	margin-right: 4px;
+}
